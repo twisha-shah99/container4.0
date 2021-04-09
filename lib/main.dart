@@ -89,7 +89,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
-        scaffoldBackgroundColor: AppColor.PRIMARY_LIGHT_YELLOW,
+        scaffoldBackgroundColor: AppColor.PRIMARY_WHITE,
       ),
       // theme: new ThemeData(
       //   primaryColor: AppColor.PRIMARY_GREEN,
