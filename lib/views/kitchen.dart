@@ -38,7 +38,7 @@ class _KitchenInventoryState extends State<KitchenInventory> {
         print("SMS is sent!");
       } else if (state == SmsMessageState.Delivered) {
         print("SMS is delivered!");
-        createAlertDialog(context, 'Success', 'The order has been placed for: ' + food);
+        createAlertDialog(context, 'Success', 'The order has been placed for: ' + food + ". The shopkeeper will soon contact you for suitable delivery date.");
       }
     });
   }
@@ -75,8 +75,8 @@ class _KitchenInventoryState extends State<KitchenInventory> {
 
     return Scaffold(
       appBar: new AppBar(
-        title: Text("Kitchen Inventory"),
-        backgroundColor: AppColor.PRIMARY_LIGHT_GREEN,
+        title: Text("Kitchen Inventory", style: TextStyle(color: AppColor.PRIMARY_BLACK, fontFamily: "Raleway", fontWeight: FontWeight.bold, fontSize: MediaQuery.of(context).size.width * 0.068),),
+        backgroundColor: AppColor.PRIMARY_CHROME_YELLOW,
         toolbarOpacity: 1.0,
         centerTitle: true,
       ),
@@ -118,6 +118,7 @@ class _KitchenInventoryState extends State<KitchenInventory> {
          String message = "Need to stock!";
          // String recipents = "xxxxxxxxxx";
          _sendSMS(message, widget_kitCon.contact, widget_kitCon.food_type);
+         print("Sending SMS to:"+ widget_kitCon.contact);
        }
      }
 
@@ -153,15 +154,17 @@ class _KitchenInventoryState extends State<KitchenInventory> {
                           Padding(
                             padding: EdgeInsets.only(top: 41.0, left: 15.0),
                             child:  Text(food_type, style: TextStyle(
-                            color: Colors.black,
-                            fontSize: MediaQuery.of(context).size.width * 0.1
+                            color: Colors.black, fontFamily: 'Raleway',
+                            fontWeight: FontWeight.bold,
+                            fontSize: MediaQuery.of(context).size.width * 0.12,
                             ),
                             ),
                           ),
                           Padding(
                             padding: EdgeInsets.only(top: 7.0, left: 15.0),
                             child: Text("Available: $quantity kg",style: TextStyle(
-                            color: Colors.brown,
+                            color: Colors.black, fontFamily: 'Raleway',
+                            fontWeight: FontWeight.w600,
                             fontSize: MediaQuery.of(context).size.width * 0.058
                             ),
                             )
@@ -247,7 +250,7 @@ class _KitchenInventoryState extends State<KitchenInventory> {
               RaisedButton(
                 child: Text(
                   'Ok',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.black, fontFamily: 'Raleway',),
                 ),
                 onPressed: () => Navigator.of(context).pop(),
               )

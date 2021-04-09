@@ -46,17 +46,19 @@ class _KitchenDetailState extends State<KitchenDetail> {
     return Scaffold(
         appBar: AppBar(
           title: Text(widget.kitchenCon.food_type),
+          backgroundColor: AppColor.PRIMARY_GREEN,
         ),
       body: Container(
                 height:  MediaQuery.of(context).size.height * 0.87,
                 width: MediaQuery.of(context).size.width,
                 padding: EdgeInsets.only(top:25, left:10, right:10),
                 child: Card(
-                  elevation: 15.0,
-                  shadowColor: AppColor.PRIMARY_GREEN,
+
+                  shadowColor: AppColor.PRIMARY_GREY,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20.0)
                   ),
+                  elevation: 15.0,
                   color: AppColor.PRIMARY_WHITE,
                   child: Column(
                     children: [
@@ -72,6 +74,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                               style: TextStyle(
                                   fontSize: 20.0,
                                   fontWeight: FontWeight.w600,
+                                  fontFamily: 'Raleway',
                                   color: Colors.black),
                             ),
                             backgroundColor: Colors.grey[300],
@@ -81,7 +84,12 @@ class _KitchenDetailState extends State<KitchenDetail> {
                       ),
                       Padding(
                           padding: EdgeInsets.only(top:15),
-                          child: Text(widget.kitchenCon.food_type, textAlign: TextAlign.center, style: TextStyle(fontSize: 45, color: AppColor.PRIMARY_GREEN),)
+                          child: Text(widget.kitchenCon.food_type, textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                          color: AppColor.PRIMARY_GREEN,
+                                          fontFamily: 'Raleway',
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: MediaQuery.of(context).size.width * 0.12,),)
                       ),
                       Padding(
                         padding: EdgeInsets.only(left:30, right: 30),
@@ -95,7 +103,21 @@ class _KitchenDetailState extends State<KitchenDetail> {
                         children: [
                           Padding(
                               padding: EdgeInsets.only(top:30, left: 30),
-                              child: Text("Available: " + widget.kitchenCon.quantity.toString() + " kg", textAlign: TextAlign.center, style: TextStyle(fontSize: 26, color: AppColor.PRIMARY_BLACK),)
+                              child: Text("Available: ", textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
+                                  fontWeight: FontWeight.w600,
+                                  fontSize: MediaQuery.of(context).size.width * 0.068,
+                                ),)
+                          ),
+                          Padding(
+                              padding: EdgeInsets.only(top:30, left: 10),
+                              child: Text(widget.kitchenCon.quantity.toString() + " kg", textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: MediaQuery.of(context).size.width * 0.071,
+                                ),)
                           ),
                         ],
                       ),
@@ -104,7 +126,12 @@ class _KitchenDetailState extends State<KitchenDetail> {
                         children: [
                           Padding(
                               padding: EdgeInsets.only(top:30, left: 30),
-                              child: Text("Threshold (kg):", textAlign: TextAlign.center, style: TextStyle(fontSize: 26, color: AppColor.PRIMARY_BLACK),)
+                              child: Text("Threshold (kg):", textAlign: TextAlign.center,
+                                style: TextStyle(
+                                color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
+                                fontWeight: FontWeight.bold,
+                                fontSize: MediaQuery.of(context).size.width * 0.068,
+                              ),)
                           ),
                           Padding(
                               padding: EdgeInsets.only(top:17, left: 0),
@@ -153,7 +180,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                             padding: EdgeInsets.only(top:0, bottom: 0, right:84),
                             child: Text(
                               _threshold.toStringAsFixed(2) + " cm",
-                              style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.w900),
+                              style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.w900, fontFamily: 'Raleway',),
                             ),
                           ),
                         ],
@@ -166,10 +193,16 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                   children: [
                                     Padding(
                                       padding: EdgeInsets.only(left: 0),
-                                      child: Text("Auto-Order:", textAlign: TextAlign.center, style: TextStyle(fontSize: 26, color: AppColor.PRIMARY_BLACK),),
+                                      child: Text("Auto-Order:", textAlign: TextAlign.center,
+                                        style: TextStyle(
+                                          color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: MediaQuery.of(context).size.width * 0.068,
+                                        ),
+                                      ),
                                     ),
                                     Padding(
-                                      padding: EdgeInsets.only(left:14),
+                                      padding: EdgeInsets.only(left:MediaQuery.of(context).size.width * 0.05),
                                       child: CustomSwitch(
                                         activeColor: AppColor.PRIMARY_GREEN,
                                         value: auto_order_bool,
@@ -194,7 +227,12 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                 children: [
                                   Padding(
                                     padding: EdgeInsets.only(left: 0),
-                                    child: Text("Store:", textAlign: TextAlign.center, style: TextStyle(fontSize: 26, color: AppColor.PRIMARY_BLACK),),
+                                    child: Text("Store:", textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: MediaQuery.of(context).size.width * 0.068,
+                                      ),),
                                   ),
                                   Padding(
                                     padding: EdgeInsets.only(left:14),
@@ -210,10 +248,12 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                       hint: Text(
                                         "Please select a store!",
                                         style: TextStyle(
-                                            color: Colors.black,
-                                            fontSize: 16,
-                                            fontWeight: FontWeight.w600),
+                                        color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: MediaQuery.of(context).size.width * 0.068,
                                       ),
+                                      ),
+
                                       onChanged: (String value) {
                                             // print(store_list.indexOf(value));
                                             // print(value);
@@ -237,11 +277,21 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                 children: [
                                   Padding(
                                     padding: EdgeInsets.only(left: 0),
-                                    child: Text("Price:   ₹", textAlign: TextAlign.center, style: TextStyle(fontSize: 26, color: AppColor.PRIMARY_BLACK),),
+                                    child: Text("Price:   ₹", textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: MediaQuery.of(context).size.width * 0.068,
+                                      ),),
                                   ),
                                   Padding(
                                     padding: EdgeInsets.only(left:1),
-                                    child: Text(_selected_store_price.toString() + "/kg", textAlign: TextAlign.center, style: TextStyle(fontSize: 26, color: AppColor.PRIMARY_BLACK),),
+                                    child: Text(_selected_store_price.toString() + "/kg", textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: MediaQuery.of(context).size.width * 0.068,
+                                      ),),
                                   ),
                                 ]
                             ),
@@ -266,7 +316,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                   Padding(
                                     padding: EdgeInsets.only(right:30),
                                     child: RaisedButton(
-                                      color: Colors.blue,
+                                      color: AppColor.PRIMARY_ORANGE,
                                       child: Text('SAVE', style: TextStyle(fontSize: 32),),
                                       onPressed: () {
 
@@ -276,7 +326,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                         return showDialog(
                                             context: context,
                                             builder: (context) {
-                                              Timer(Duration(seconds: 5),
+                                              Timer(Duration(seconds: 4),
                                                       ()=>Navigator.pop(context),
                                               );
                                               return FractionallySizedBox(
