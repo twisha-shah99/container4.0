@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -37,6 +39,8 @@ class _add_postsState extends State<add_posts> {
           borderRadius: BorderRadius.circular(15),
         ),
         child:Center(child:Text(title,style:TextStyle(fontSize: 14,
+            fontFamily: "Raleway",
+            fontWeight: FontWeight.w600,
             color:Colors.white),
         ),),),
 
@@ -59,7 +63,8 @@ class _add_postsState extends State<add_posts> {
       appBar: AppBar(
 
 
-        title:Text('Add Post'),
+        title:Text('Add Post',style:TextStyle(fontFamily: "Raleway",fontWeight: FontWeight.w600)),
+
 
       ),
       body:Container(
@@ -74,6 +79,7 @@ class _add_postsState extends State<add_posts> {
               height:40,
 
               child:ListView(
+
                 scrollDirection:Axis.horizontal,
                 children:[
                   _buildfoodType('Fruit'),
@@ -97,6 +103,7 @@ class _add_postsState extends State<add_posts> {
               decoration:
               InputDecoration(
                 hintText:'Enter Description',
+                hintStyle: TextStyle(fontFamily: "Raleway",fontWeight: FontWeight.bold),
                 prefixIcon:Icon(Icons.notes,size:30,),
                 fillColor:Colors.white,
                 filled:true,
@@ -110,6 +117,7 @@ class _add_postsState extends State<add_posts> {
               decoration:
               InputDecoration(
                 hintText:'Enter Quantity',
+                hintStyle: TextStyle(fontFamily: "Raleway",fontWeight: FontWeight.bold),
                 prefixIcon:Icon(Icons.format_list_numbered,size:30,),
                 fillColor:Colors.white,
                 filled:true,
@@ -123,6 +131,8 @@ class _add_postsState extends State<add_posts> {
               decoration:
               InputDecoration(
                 hintText:'Enter Price',
+                hintStyle: TextStyle(fontFamily: "Raleway",fontWeight: FontWeight.bold),
+
                 prefixIcon:Icon(Icons.money,size:30,),
                 fillColor:Colors.white,
                 filled:true,
@@ -154,9 +164,10 @@ class _add_postsState extends State<add_posts> {
 
               ),
               child: Text('Add Post',style:TextStyle(
+                fontFamily: "Raleway",fontWeight: FontWeight.bold,
                 fontSize: 20,
                 color: Colors.white,
-                fontWeight: FontWeight.w600,
+
               ),
               ),
 

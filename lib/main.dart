@@ -57,7 +57,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
 
-              Text("Container 4.0", style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),),
+              Text("Container 4.0", style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold,fontFamily: "Raleway"),),
               Padding(
                 padding:EdgeInsets.only(top:20),
                 child:Lottie.network(
@@ -89,6 +89,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
+
         primaryColor: Color(0xFF27AE60),
         accentColor: Color(0xFFF2C94C),
         scaffoldBackgroundColor: AppColor.PRIMARY_WHITE,
