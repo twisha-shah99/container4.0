@@ -3,7 +3,7 @@
   <br>
   <img src="https://raw.githubusercontent.com/high-functioning-sociopath/container4.0/master/repo_assets/icon_under_construction.png?token=AHOMLCSMZIG6QOPECJOCVATAMYDEQ" alt="Coming Soon" width="200">
   <br>
-  Smart Container 4.0
+  Container 4.0
   <br>
 </h1>
 
