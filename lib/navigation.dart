@@ -37,7 +37,7 @@ class _NavBarState extends State<NavBar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Container 4.0"),
+        title: Text("Container 4.0", style: TextStyle(color: AppColor.PRIMARY_WHITE, fontFamily: "Raleway", fontWeight: FontWeight.bold, fontSize: MediaQuery.of(context).size.width * 0.070),),
         centerTitle: true,
       ),
       body: Center(
