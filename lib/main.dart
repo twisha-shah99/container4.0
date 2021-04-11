@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
@@ -22,6 +21,7 @@ class StartApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
       home: SplashScreenPage(),
       debugShowCheckedModeBanner: false,
     );
@@ -57,7 +57,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
 
-              Text("Container 4.0", style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),),
+              Text("Container 4.0", style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold,fontFamily: "Raleway"),),
               Padding(
                 padding:EdgeInsets.only(top:20),
                 child:Lottie.network(
@@ -89,6 +89,9 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
+
+        primaryColor: Color(0xFF27AE60),
+        accentColor: Color(0xFFF2C94C),
         scaffoldBackgroundColor: AppColor.PRIMARY_WHITE,
       ),
       // theme: new ThemeData(

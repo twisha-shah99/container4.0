@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
+import 'package:smart_container/views/community.dart';
+
+import 'package:smart_container/views/kitchen.dart';
+
+
 import 'package:smart_container/views/kitchen.dart';
 import 'package:smart_container/assets/color.dart';
+
 
 
 class NavBar extends StatefulWidget {
@@ -16,7 +22,7 @@ class _NavBarState extends State<NavBar> {
   List<Widget>__navBarOptions = <Widget>[
     KitchenInventory(),
     Text("Fridge Containers"),
-    Text("Community Support"),
+    posts(),
     Text("Settings")];
 
   void _onItemTapped(int index){
@@ -30,9 +36,8 @@ class _NavBarState extends State<NavBar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Container 4.0", style: TextStyle(color: AppColor.PRIMARY_WHITE, fontFamily: "Raleway", fontWeight: FontWeight.bold, fontSize: MediaQuery.of(context).size.width * 0.085),),
+        title: Text("Container 4.0"),
         centerTitle: true,
-        backgroundColor: AppColor.PRIMARY_GREEN,
       ),
       body: Center(
         child: __navBarOptions.elementAt(_selectedIndex),
@@ -48,19 +53,31 @@ class _NavBarState extends State<NavBar> {
         child:  BottomNavigationBar( type: BottomNavigationBarType.fixed, items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Icon(MdiIcons.battery70,),
-              title: Text("Inventory",),
+              title: Text("Inventory",style:TextStyle(
+                fontFamily: "Raleway",
+                fontWeight: FontWeight.bold,
+              )),
             ),
             BottomNavigationBarItem(
               icon: Icon(MdiIcons.fridge),
-              title: Text("Fridge"),
+              title: Text("Fridge",style:TextStyle(
+                fontFamily: "Raleway",
+                fontWeight: FontWeight.bold,
+              )),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.chat),
-              title: Text("Community"),
+              title: Text("Community",style:TextStyle(
+                fontFamily: "Raleway",
+                fontWeight: FontWeight.bold,
+              )),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.settings),
-              title: Text("Settings"),
+              title: Text("Settings",style:TextStyle(
+                fontFamily: "Raleway",
+                fontWeight: FontWeight.bold,
+              )),
             ),
           ],
           currentIndex: _selectedIndex,
