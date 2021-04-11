@@ -55,8 +55,7 @@ class _FridgeInventoryState extends State<FridgeInventory> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: Text("Fridge Inventory",
-          style: TextStyle(fontFamily: 'Raleway'),),
+        title: Text("Fridge Inventory", style: TextStyle(color: AppColor.PRIMARY_BLACK, fontFamily: "Raleway", fontWeight: FontWeight.bold, fontSize: MediaQuery.of(context).size.width * 0.068),),
         backgroundColor: Color(0xFFF2C94C),
         toolbarOpacity: 1.0,
         centerTitle: true,
