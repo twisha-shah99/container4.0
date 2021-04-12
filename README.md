@@ -20,6 +20,13 @@
 
 <!-- Add a working vide of app! :)-->
 <!-- ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif) -->
+## User Interface of App
+![food-comunity-1](https://github.com/high-functioning-sociopath/container4.0/blob/foodcommunity/food-community-1.jpeg)
+![food-comunity-2](https://github.com/high-functioning-sociopath/container4.0/blob/foodcommunity/food-community-2.jpeg)
+![kitchen-1](https://github.com/high-functioning-sociopath/container4.0/blob/foodcommunity/kitchen-1.jpeg)
+![kitchen-2](https://github.com/high-functioning-sociopath/container4.0/blob/foodcommunity/kitchen-2.jpeg)
+![kitchen-3](https://github.com/high-functioning-sociopath/container4.0/blob/foodcommunity/kitchen-3.jpeg)
+
 
 ## About
 
