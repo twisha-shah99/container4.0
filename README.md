@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="#how-to-use">About</a> •
+  <a href="#images">User Interface of App</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#download">Tech Stack</a> •
   <a href="#credits">Credits</a> •
