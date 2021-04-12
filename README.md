@@ -1,55 +1,94 @@
+# Invoice-Processing-System  
+ This repository is for the purpose of TSEC Hackacthon'21 and maintained by Team <b>LetsHackIt</b>  
 
-<h1 align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/high-functioning-sociopath/container4.0/master/repo_assets/icon_under_construction.png?token=AHOMLCSMZIG6QOPECJOCVATAMYDEQ" alt="Coming Soon" width="200">
-  <br>
-  Smart Container 4.0
-  <br>
-</h1>
 
-<h4 align="center">Smartify yout kitchen!</h4>
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
+
+
+<!-- PROJECT LOGO -->
+<br />
 <p align="center">
-  <a href="#how-to-use">About</a> •
-  <a href="#key-features">Key Features</a> •
-  <a href="#download">Tech Stack</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+
+  <h3 align="center">Container 4.0</h3>
+
+  <p align="center">
+    Smartify your kitchen!
+    <br />
+    <br />
+    <br />
+<!--   add youtube video link -->
+<!--     <a href="https://youtu.be/">View Demo</a> -->
+    ·
+  </p>
 </p>
 
-<!-- Add a working vide of app! :)-->
-<!-- ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif) -->
 
-## About
 
-* Cross Platform..
-* Yet to add
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#key-features">Key Features</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
+    <li><a href="#contributors">Contributors</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-## Key Features
 
-* Cross Platform..
-* Yet to add
 
-## Tech Stack
+<!-- ABOUT THE PROJECT -->
+## About The Project
+### Built With
 
-Tech stask coming soon
+* [Flutter](https://api.flutter.dev/)
 
-## Credits
+<!-- USAGE EXAMPLES -->
+## Screenshots
 
-This project is developed as a part of semester project at VJTI (ESS, B.Tech Electronics) by the following members:
-1) Twisha Shah
-2) Ketaki Mulye
-3) Antara Borkar
-4) Dipti Kawanpure
+### App Screenshots
 
-## Related
+<p align="center">
+  <img src="assets/front.PNG" width="250" height="500" title="front screen">
+  <img src="assets/upload.PNG" width="250" height="500" alt="upload screen">
+</p>
 
-coming soon
+<p align="center">
+ <img src="assets/crop.PNG" width="250" height="500" alt="cropping screen">
+  <img src="assets/output.PNG" width="250" height="500" alt="output screen">
+</p>
 
+
+<!-- CONTRIBUTORS -->
+## Contributors
+:smile:
+1) [Twisha Shah](https://github.com/high-functioning-sociopath)
+2) [Antara Borkar](https://github.com/high-functioning-sociopath)
+3) [Ketaki Mulye](https://github.com/high-functioning-sociopath)
+4) [Dipti Kawanpure](https://github.com/high-functioning-sociopath)
+
+
+<!-- LICENSE -->
 ## License
 
-MIT
+Distributed under the MIT License. See `LICENSE` for more information.
 
----
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
