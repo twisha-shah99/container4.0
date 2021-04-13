@@ -1,5 +1,3 @@
-# Container 4.0
- This repository is for the purpose of ESS Project 2021, VJTI.
 
 <!-- PROJECT LOGO -->
 <br />
