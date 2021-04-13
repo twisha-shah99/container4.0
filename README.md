@@ -67,13 +67,13 @@
 ### App Screenshots
 
 <p align="center">
-  <img src="repo_assets/kitchen_main.jpeg" width="250" height="500" title="Kitchen Inventory Screen">
+  <img src="repo_assets/kitchen_main.jpeg" width="250" height="500" title="Kitchen Inventory Screen">&nbsp; &nbsp; &nbsp; &nbsp; 
   <img src="repo_assets/kitchen_description.jpeg" width="250" height="500" alt="Container Description Screen">
 </p>
-
+&nbsp; &nbsp; 
 <p align="center">
- <img src="repo_assets/foodcommunity_main.jpeg" width="250" height="500" alt="cropping screen">
-  <img src="repo_assets/foodcommunity_addpost.jpeg" width="250" height="500" alt="output screen">
+ <img src="repo_assets/foodcommunity_main.jpeg" width="250" height="500" alt="cropping screen">&nbsp; &nbsp; &nbsp; &nbsp; 
+  <img src="repo_assets/foodcommunity_addPost.jpeg" width="250" height="500" alt="output screen">
 </p>
 
 <!-- CONTRIBUTORS -->
