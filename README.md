@@ -51,11 +51,14 @@ MQ3 Alcohol Ethanol Sensor
 
 <li>Flutter
 
+## Key Features
 <li>Monitor quantity of food<li>
 Monitor quality of food<li>
 Food community support<li>
 Fridge door open indication<li>
 Auto-order
+
+
 
 <!-- USAGE EXAMPLES -->
 ## Screenshots
