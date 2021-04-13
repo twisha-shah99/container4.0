@@ -248,10 +248,8 @@ class _KitchenInventoryState extends State<KitchenInventory> {
             content: Text(msg),
             actions: <Widget>[
               RaisedButton(
-                child: Text(
-                  'Ok',
-                  style: TextStyle(color: Colors.black, fontFamily: 'Raleway',),
-                ),
+                color: AppColor.PRIMARY_ORANGE,
+                child: Text('Ok', style: TextStyle(fontSize: MediaQuery.of(context).size.width * 0.068, fontFamily: "Raleway"),),
                 onPressed: () => Navigator.of(context).pop(),
               )
             ],
