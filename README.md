@@ -1,30 +1,15 @@
 # Container 4.0
  This repository is for the purpose of ESS Project 2021, VJTI.
 
-
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-
-  <h3 align="center">Container 4.0</h3>
-
-  <p align="center">
+  <h1 align="center">Container 4.0</h1>
+  <p align="center"> <i>
     Smartify your kitchen!
+    </i>
     <br />
     <br />
-    <br />
-<!--   add youtube video link -->
-<!--     <a href="https://youtu.be/">View Demo</a> -->
-    ·
   </p>
 </p>
 
