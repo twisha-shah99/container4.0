@@ -24,6 +24,7 @@
         <ul>
         <li><a href="#built-with">Hardware</a>
         <li><a href="#built-with">Software</a>
+         <li><a href="#buit-with">Architecture and Connections</a>
         </ul>
         </li>
       </ul>
@@ -49,7 +50,11 @@ MQ3 Alcohol Ethanol Sensor
 
 #### Software
 
-<li>Flutter
+<li>Python</li>
+<li>Flutter</li>
+<li>Firebase Realtime database</li>
+
+#### Architecture and Connections
 
 ## Key Features
 <li>Monitor quantity of food<li>
