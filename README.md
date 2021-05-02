@@ -22,13 +22,11 @@
       <ul>
         <li><a href="#built-with">Built With</a>
         <ul>
-        <li><a href="#built-with">Hardware</a>
-        <li><a href="#built-with">Software</a>
-         <li><a href="#buit-with">Architecture and Connections</a>
+          <li><a href="#built-with">Hardware</a></li>
+          <li><a href="#built-with">Software</a></li>
         </ul>
-        </li>
-      </ul>
-    </li>
+      </li>
+    <li><a href="#architecture">Architecture and Connections</a>
     <li><a href="#key-features">Key Features</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#contributors">Contributors</a></li>
