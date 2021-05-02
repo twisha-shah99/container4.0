@@ -77,7 +77,7 @@ Auto-order
 ### App Screenshots
 
 <p align="center">
-  <img src="repo_assets/kitchen_main.jpeg" width="250" height="500" title="Kitchen Inventory Screen">&nbsp; &nbsp; &nbsp; &nbsp; 
+  <img src="repo_assets/kitchen_main.jfif" width="250" height="500" title="Kitchen Inventory Screen">&nbsp; &nbsp; &nbsp; &nbsp; 
   <img src="repo_assets/kitchen_description.jpeg" width="250" height="500" alt="Container Description Screen">
 </p>
 &nbsp; &nbsp; 
