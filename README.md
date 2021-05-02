@@ -54,12 +54,12 @@ MQ3 Alcohol Ethanol Sensor
 
 ## Architecture and Connections
 <p align="center">
-  <img src="repo_assets/Ess-architecture.jpg" width="250" height="500" title="Project Architecture">&nbsp; &nbsp; &nbsp; &nbsp; 
-  <img src="repo_assets/mq3.png" width="250" height="500" alt="hx711 module with Rpi">
+  <img src="repo_assets/Ess-architecture.jpg" width="800" height="500" title="Project Architecture"> 
+  <img src="repo_assets/mq3.png" width="800" height="500" alt="hx711 module with Rpi">
 </p>
 <p align="center">
-  <img src="repo_assets/dht11connection.png" width="250" height="500" title="dht11-module with Rpi">&nbsp; &nbsp; &nbsp; &nbsp; 
-  <img src="repo_assets/hx711.png" width="250" height="500" alt="hx711 module with Rpi">
+  <img src="repo_assets/dht11connection.png" width="800" height="500" title="dht11-module with Rpi">&nbsp; &nbsp; &nbsp; &nbsp; 
+  <img src="repo_assets/hx711.png" width="800" height="500" alt="hx711 module with Rpi">
 </p>
 
 ## Key Features
