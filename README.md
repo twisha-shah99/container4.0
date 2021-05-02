@@ -82,6 +82,11 @@ Auto-order
 </p>
 &nbsp; &nbsp; 
 <p align="center">
+ <img src="repo_assets/Kitchen_detail.jfif" width="250" height="500" alt="cropping screen">&nbsp; &nbsp; &nbsp; &nbsp; 
+  <img src="repo_assets/Order_placed.jfif" width="250" height="500" alt="output screen">
+</p>
+&nbsp; &nbsp; 
+<p align="center">
  <img src="repo_assets/foodcommunity_main.jpeg" width="250" height="500" alt="cropping screen">&nbsp; &nbsp; &nbsp; &nbsp; 
   <img src="repo_assets/foodcommunity_addPost.jpeg" width="250" height="500" alt="output screen">
 </p>
