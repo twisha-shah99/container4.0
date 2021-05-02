@@ -52,7 +52,7 @@ MQ3 Alcohol Ethanol Sensor
 <li>Flutter</li>
 <li>Firebase Realtime database</li>
 
-#### Architecture and Connections
+## Architecture and Connections
 
 ## Key Features
 <li>Monitor quantity of food<li>
