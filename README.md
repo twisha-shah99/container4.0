@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h1 align="center">Container 4.0</h1>
+  <h1 align="center">FreshFill</h1>
   <p align="center"> <i>
     Smartify your kitchen!
     </i>
@@ -95,9 +95,9 @@ Auto-order
 ## Contributors
 :smile:
 1) [Twisha Shah](https://github.com/high-functioning-sociopath)
-2) [Antara Borkar](https://github.com/high-functioning-sociopath)
-3) [Ketaki Mulye](https://github.com/high-functioning-sociopath)
-4) [Dipti Kawanpure](https://github.com/high-functioning-sociopath)
+2) [Antara Borkar](https://github.com/antara201)
+3) [Ketaki Mulye](https://github.com/ketaki122)
+4) [Dipti Kawanpure](https://github.com/diptikk)
 
 
 <!-- LICENSE -->
