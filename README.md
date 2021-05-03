@@ -77,19 +77,24 @@
 ###  Hardware 
 
 <li>Raspberry Pi model 2B+
-<li>DHT-11 Temperature and humidity sensor
-<p align="center">
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="repo_assets/sensor_rpi.PNG" width="250" height = "130" title="RPI">
 </p>
-<p align="center">
+<li>DHT-11 Temperature and humidity sensor
+
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="repo_assets/sensor_dht11.PNG" width="250" height = "130" title="DHT11">
 </p>
 <li>Load cell (6 kg)
-<p align="center">
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="repo_assets/sensor_loadCell.PNG" width="250" height = "130" title="LoadCELL">
 </p>
 HX711
-<p align="center">
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="repo_assets/sensor_hx711.PNG" width="250" height = "130" title="HX711">
 </p>
 <li>MQ3 Alcohol Ethanol Sensor
