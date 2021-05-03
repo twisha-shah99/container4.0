@@ -48,15 +48,15 @@
     If somehow, we can manage out kitchens in such a way to avoid overstock and wastage of food, it many benefit nearly 9 million people, who die out of hunger and hunger-related diseases.
     
     Leveraging the power of IoT, AI and computer vision techniques, we propose a simple consumer based application - "FreshFill".
+    Note: This repository is for the purpose of ESS Project (TY - B.Tech Electronics, VJTI)
 
 #### UN Goals
-    <p align="center">
-      <img src="repo_assets/UN_goals.PNG" width="600" height="350" title="dht11-module with Rpi">
-      </br>
-      </br>
-    </p>
-    
-    Note: This repository is for the purpose of ESS Project (TY - B.Tech Electronics, VJTI)  
+<p align="center">
+  <img src="repo_assets/UN_goals.PNG" width="600" height = "350" title="UN">
+</p>
+
+      
+  
 ### Built With
 ####  Hardware 
 
