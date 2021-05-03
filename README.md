@@ -52,8 +52,7 @@
     If somehow, we can manage out kitchens in such a way to avoid overstock and wastage of food, 
     it many benefit nearly 9 million people, who die out of hunger and hunger-related diseases. 
     </p>
-    <i>
-    Leveraging the power of IoT, AI and computer vision techniques, we propose a simple consumer based application - <b><i> FreshFill </b></i>
+    <i>Leveraging the power of IoT, AI and computer vision techniques, we propose a simple consumer based application - <b>FreshFill</b></i>
     </br>
     <b>Note: </b> This repository is for the purpose of ESS Project (TY - B.Tech Electronics, VJTI, Mumbai)
     </p>
@@ -77,21 +76,23 @@
 ## Built With
 ###  Hardware 
 
-<li>Raspberry Pi model 2B+<li>
-
-DHT-11 Temperature and humidity sensor<li>
+<li>Raspberry Pi model 2B+
+<li>DHT-11 Temperature and humidity sensor
 <p align="center">
-  <img src="repo_assets/sensor_dht11.PNG" width="200" height = "80" title="DHT11">
+  <img src="repo_assets/sensor_rpi.PNG" width="250" height = "130" title="RPI">
 </p>
-Load cell (6 kg)<li>
 <p align="center">
-  <img src="repo_assets/sensor_loadCell.PNG" width="200" height = "80" title="LoadCELL">
+  <img src="repo_assets/sensor_dht11.PNG" width="250" height = "130" title="DHT11">
 </p>
-HX711<li>
+<li>Load cell (6 kg)
 <p align="center">
-  <img src="repo_assets/sensor_hx711.PNG" width="200" height = "80" title="HX711">
+  <img src="repo_assets/sensor_loadCell.PNG" width="250" height = "130" title="LoadCELL">
 </p>
-MQ3 Alcohol Ethanol Sensor
+HX711
+<p align="center">
+  <img src="repo_assets/sensor_hx711.PNG" width="250" height = "130" title="HX711">
+</p>
+<li>MQ3 Alcohol Ethanol Sensor
 
 ### Software
 
