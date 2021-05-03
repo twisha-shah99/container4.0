@@ -1,16 +1,24 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
-  <h1 align="center">FreshFill</h1>
-  <p align="center"> <i>
-    Smartify your kitchen!
-    </i>
-    <br />
-    <br />
-  </p>
-</p>
 
+<p align="center">
+    <img src="repo_assets/logo.png" alt="Logo" width="100" height="160">
+    <h3 align="center">FreshFill</h3>
+   <p align="center"><i>
+      Smartify your Kitchen!
+      </i>
+      <br />
+      <br />
+      <p align="center"><i>
+           From from Zero Waste to Zero Hunger!
+            </i>
+            <br />
+            <br />
+      </p>
+    </p>
+  </p>
+  
 
 
 <!-- TABLE OF CONTENTS -->
@@ -25,6 +33,7 @@
           <li><a href="#built-with">Hardware</a></li>
           <li><a href="#built-with">Software</a></li>
         </ul>
+      </li>
       </li>
     <li><a href="#architecture">Architecture and Connections</a>
     <li><a href="#key-features">Key Features</a></li>
