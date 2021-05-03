@@ -23,6 +23,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#proposed-solution">Proposed Solution</a>
         <li><a href="#about-the-project">UN Goals</a>
         <li><a href="#built-with">Built With</a>
         <ul>
@@ -44,11 +45,24 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-    Every year, around 1.3 billion tons of food is being wasted around the globe. Another report by Food Trust indicates that around 50% of the thrown waste is wtill edible.
-    If somehow, we can manage out kitchens in such a way to avoid overstock and wastage of food, it many benefit nearly 9 million people, who die out of hunger and hunger-related diseases.
-    
+    <p align = "center>
+    <p>
+    Every year, around 1.3 billion tons of food is being wasted around the globe. 
+    Another report by Food Trust indicates that around 50% of the thrown waste is wtill edible.
+    If somehow, we can manage out kitchens in such a way to avoid overstock and wastage of food, 
+    it many benefit nearly 9 million people, who die out of hunger and hunger-related diseases. </p>
+    <p>
     Leveraging the power of IoT, AI and computer vision techniques, we propose a simple consumer based application - "FreshFill".
-    Note: This repository is for the purpose of ESS Project (TY - B.Tech Electronics, VJTI)
+    <b>Note: </b> This repository is for the purpose of ESS Project (TY - B.Tech Electronics, VJTI)</p>
+    </p>
+
+#### Proposed Solution
+<p align="center">
+  <img src="repo_assets/kitchen_inv.PNG" width="750" title="Kitchen">
+</p>
+<p align="center">
+  <img src="repo_assets/fridge_con.PNG" width="750" title="Fridge">
+</p>
 
 #### UN Goals
 <p align="center">
@@ -74,12 +88,12 @@ MQ3 Alcohol Ethanol Sensor
 
 ## Architecture and Connections
 <p align="center">
-  <img src="repo_assets/Ess-architecture.jpg" width="800" height="500" title="Project Architecture"> 
-  <img src="repo_assets/dht11connection.png" width="800" height="500" title="dht11-module with Rpi">
+  <img src="repo_assets/Ess-architecture.jpg" width="600" height = "350" title="Project Architecture"> 
+  <img src="repo_assets/dht11connection.png" width="600" height = "350" title="dht11-module with Rpi">
 </p>
 <p align="center">
-  <img src="repo_assets/mq3.png" width="800" height="500" alt="hx711 module with Rpi">
-  <img src="repo_assets/hx711.png" width="800" height="500" alt="hx711 module with Rpi">
+  <img src="repo_assets/mq3.png" width="600" height = "350" alt="hx711 module with Rpi">
+  <img src="repo_assets/hx711.png" width="600" height = "350" alt="hx711 module with Rpi">
 </p>
 
 ## Key Features
