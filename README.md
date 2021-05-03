@@ -44,49 +44,62 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-    <p align = "center>
+# About The Project
+  <p align = "center">
     <p>
     Every year, around 1.3 billion tons of food is being wasted around the globe. 
-    Another report by Food Trust indicates that around 50% of the thrown waste is wtill edible.
+    Another report by Food Trust indicates that around 50% of the thrown waste is still edible.
     If somehow, we can manage out kitchens in such a way to avoid overstock and wastage of food, 
-    it many benefit nearly 9 million people, who die out of hunger and hunger-related diseases. </p>
-    <p>
-    Leveraging the power of IoT, AI and computer vision techniques, we propose a simple consumer based application - "FreshFill".
-    <b>Note: </b> This repository is for the purpose of ESS Project (TY - B.Tech Electronics, VJTI)</p>
+    it many benefit nearly 9 million people, who die out of hunger and hunger-related diseases. 
     </p>
+    <i>
+    Leveraging the power of IoT, AI and computer vision techniques, we propose a simple consumer based application - <b><i> FreshFill </b></i>
+    </br>
+    <b>Note: </b> This repository is for the purpose of ESS Project (TY - B.Tech Electronics, VJTI, Mumbai)
+    </p>
+  </p>
 
-#### Proposed Solution
+## Proposed Solution
 <p align="center">
-  <img src="repo_assets/kitchen_inv.PNG" width="750" title="Kitchen">
+  <img src="repo_assets/kitchen_inv.PNG" width="600" height = "350" title="Kitchen">
 </p>
 <p align="center">
-  <img src="repo_assets/fridge_con.PNG" width="750" title="Fridge">
+  <img src="repo_assets/fridge_con.PNG" width="600" height = "350" title="Fridge">
 </p>
 
-#### UN Goals
+## UN Goals
 <p align="center">
   <img src="repo_assets/UN_goals.PNG" width="600" height = "350" title="UN">
 </p>
 
       
   
-### Built With
-####  Hardware 
+## Built With
+###  Hardware 
 
 <li>Raspberry Pi model 2B+<li>
-HX711<li>
+
 DHT-11 Temperature and humidity sensor<li>
+<p align="center">
+  <img src="repo_assets/sensor_dht11.PNG" width="200" height = "80" title="DHT11">
+</p>
 Load cell (6 kg)<li>
+<p align="center">
+  <img src="repo_assets/sensor_loadCell.PNG" width="200" height = "80" title="LoadCELL">
+</p>
+HX711<li>
+<p align="center">
+  <img src="repo_assets/sensor_hx711.PNG" width="200" height = "80" title="HX711">
+</p>
 MQ3 Alcohol Ethanol Sensor
 
-#### Software
+### Software
 
 <li>Python</li>
 <li>Flutter</li>
 <li>Firebase Realtime database</li>
 
-## Architecture and Connections
+# Architecture and Connections
 <p align="center">
   <img src="repo_assets/Ess-architecture.jpg" width="600" height = "350" title="Project Architecture"> 
   <img src="repo_assets/dht11connection.png" width="600" height = "350" title="dht11-module with Rpi">
@@ -96,7 +109,7 @@ MQ3 Alcohol Ethanol Sensor
   <img src="repo_assets/hx711.png" width="600" height = "350" alt="hx711 module with Rpi">
 </p>
 
-## Key Features
+# Key Features
 <li>Monitor quantity of food<li>
 Monitor quality of food<li>
 Food community support<li>
@@ -106,9 +119,9 @@ Auto-order
 
 
 <!-- USAGE EXAMPLES -->
-## Screenshots
+# Screenshots
 
-### App Screenshots
+## App Screenshots
 
 <p align="center">
   <img src="repo_assets/kitchen_main.jfif" width="250" height="500" title="Kitchen Inventory Screen">&nbsp; &nbsp; &nbsp; &nbsp; 
@@ -126,7 +139,7 @@ Auto-order
 </p>
 
 <!-- CONTRIBUTORS -->
-## Contributors
+# Contributors
 :smile:
 1) [Twisha Shah](https://github.com/high-functioning-sociopath)
 2) [Antara Borkar](https://github.com/antara201)
@@ -135,7 +148,7 @@ Auto-order
 
 
 <!-- LICENSE -->
-## License
+# License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
