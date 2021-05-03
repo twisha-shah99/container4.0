@@ -1,15 +1,12 @@
 
 <!-- PROJECT LOGO -->
 <br />
-
 <p align="center">
-    <img src="repo_assets/logo.png" alt="Logo" width="100" height="160">
+    <img src="repo_assets/logo.PNG" alt="Logo" width="100" height="160">
     <h3 align="center">FreshFill</h3>
    <p align="center"><i>
-      Smartify your Kitchen!
+      "Smartify" your Kitchen!
       </i>
-      <br />
-      <br />
       <p align="center"><i>
            From from Zero Waste to Zero Hunger!
             </i>
@@ -18,8 +15,6 @@
       </p>
     </p>
   </p>
-  
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -28,13 +23,15 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#about-the-project">UN Goals</a>
         <li><a href="#built-with">Built With</a>
         <ul>
-          <li><a href="#built-with">Hardware</a></li>
-          <li><a href="#built-with">Software</a></li>
-        </ul>
-      </li>
-      </li>
+            <li><a href="#built-with">Hardware</a></li>
+            <li><a href="#built-with">Software</a></li>
+      </ul>
+        </li>
+      </ul>
+    </li>
     <li><a href="#architecture">Architecture and Connections</a>
     <li><a href="#key-features">Key Features</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
@@ -44,8 +41,22 @@
   </ol>
 </details>
 
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+    Every year, around 1.3 billion tons of food is being wasted around the globe. Another report by Food Trust indicates that around 50% of the thrown waste is wtill edible.
+    If somehow, we can manage out kitchens in such a way to avoid overstock and wastage of food, it many benefit nearly 9 million people, who die out of hunger and hunger-related diseases.
+    
+    Leveraging the power of IoT, AI and computer vision techniques, we propose a simple consumer based application - "FreshFill".
+
+#### UN Goals
+    <p align="center">
+      <img src="repo_assets/UN_goals.PNG" width="600" height="350" title="dht11-module with Rpi">
+      </br>
+      </br>
+    </p>
+    
+    Note: This repository is for the purpose of ESS Project (TY - B.Tech Electronics, VJTI)  
 ### Built With
 ####  Hardware 
 
