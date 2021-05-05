@@ -149,7 +149,7 @@ Auto-order
 &nbsp; &nbsp; 
 <p align="center">
  <img src="repo_assets/sms.jfif" width="250" height="500" alt="cropping screen">&nbsp; &nbsp; &nbsp; &nbsp; 
-  <img src="repo_assets/Fridge_Detail.png" width="250" height="500" alt="output screen">
+  <img src="repo_assets/Fridge_description.png" width="250" height="500" alt="output screen">
 </p>
 &nbsp; &nbsp; 
 <p align="center">
