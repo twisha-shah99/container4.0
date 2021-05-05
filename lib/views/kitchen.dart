@@ -115,7 +115,7 @@ class _KitchenInventoryState extends State<KitchenInventory> {
 
      if(widget_kitCon.quantity <=  widget_kitCon.threshold){
        if(autoOrder == true){
-         String message = "Need to stock!";
+         String message = "Order:"+food_type+"-"+widget_kitCon.refill_quantity.toString()+"kg,deliver to Antara" ;
          // String recipents = "xxxxxxxxxx";
          _sendSMS(message, widget_kitCon.contact, widget_kitCon.food_type);
          print("Sending SMS to:"+ widget_kitCon.contact);
