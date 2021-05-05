@@ -107,10 +107,10 @@ HX711
 <li>Firebase Realtime database</li>
 
 # Project Demo
-<img src="repo_assets/Software_demo.gif" width="300" height="450" alt="Demo" />
 <p align="center">
-<br />
-<a href="https://drive.google.com/file/d/1QBMq46aj7z1aQ7YXLMyRCDLZ4_NpmKxJ/view">View Full Demo</a>
+    <img src="repo_assets/Software_demo.gif" width="250" height="550" alt="Demo" />
+    <br />
+    <a href="https://drive.google.com/file/d/1QBMq46aj7z1aQ7YXLMyRCDLZ4_NpmKxJ/view">View Full Demo</a>
 </p>
 
 # Architecture and Connections
