@@ -33,8 +33,13 @@
         </li>
       </ul>
     </li>
-    <li><a href="#project-demo">Project Demo</a> 
-    <li><a href="#architecture">Architecture and Connections</a>
+     <li><a href="#project-demo">Project Demo</a></li>
+    <li><a href="#architecture">Architecture</a>
+        <ul>
+        <li><a href="#project-architecture">Project Architecture</a>
+        <li><a href="#connections">Connections</a>
+        </ul>
+      </li>
     <li><a href="#key-features">Key Features</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#contributors">Contributors</a></li>
@@ -78,26 +83,9 @@
 ###  Hardware 
 
 <li>Raspberry Pi model 2B+
-<p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="repo_assets/sensor_rpi.PNG" width="250" height = "130" title="RPI">
-</p>
 <li>DHT-11 Temperature and humidity sensor
-
-<p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="repo_assets/sensor_dht11.PNG" width="250" height = "130" title="DHT11">
-</p>
 <li>Load cell (6 kg)
-<p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="repo_assets/sensor_loadCell.PNG" width="250" height = "130" title="LoadCELL">
-</p>
-HX711
-<p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="repo_assets/sensor_hx711.PNG" width="250" height = "130" title="HX711">
-</p>
+<li>HX711
 <li>MQ3 Alcohol Ethanol Sensor
 
 ### Software
@@ -113,12 +101,14 @@ HX711
     <a href="https://drive.google.com/file/d/1QBMq46aj7z1aQ7YXLMyRCDLZ4_NpmKxJ/view">View Full Demo</a>
 </p>
 
-# Architecture and Connections
+# Architecture
+### Project Architecture
 <p align="center">
-  <img src="repo_assets/Ess-architecture.jpg" width="600" height = "350" title="Project Architecture"> 
-  <img src="repo_assets/dht11connection.png" width="600" height = "350" title="dht11-module with Rpi">
+  <img src="repo_assets/Ess-architecture.jpg" width="600" height = "350" title="Project Architecture">
 </p>
+### Connections
 <p align="center">
+   <img src="repo_assets/dht11connection.png" width="600" height = "350" title="dht11-module with Rpi">
   <img src="repo_assets/mq3.png" width="600" height = "350" alt="hx711 module with Rpi">
   <img src="repo_assets/hx711.png" width="600" height = "350" alt="hx711 module with Rpi">
 </p>
