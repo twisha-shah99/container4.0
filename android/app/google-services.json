@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1055284255669",
+    "project_id": "containeress-835b4",
+    "storage_bucket": "containeress-835b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055284255669:android:63c506b102d121a44697fc",
+        "android_client_info": {
+          "package_name": "com.example.smart_container"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055284255669-sce194ou5sm38fsa94gradvelc8q0qrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6EhZWrDopQ68OwTHQnC1Nx562Xo0HdHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055284255669-sce194ou5sm38fsa94gradvelc8q0qrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
