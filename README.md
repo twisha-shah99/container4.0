@@ -33,6 +33,7 @@
         </li>
       </ul>
     </li>
+    <li><a href="#project-demo">Project Demo</a> 
     <li><a href="#architecture">Architecture and Connections</a>
     <li><a href="#key-features">Key Features</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
@@ -104,6 +105,13 @@ HX711
 <li>Python</li>
 <li>Flutter</li>
 <li>Firebase Realtime database</li>
+
+# Project Demo
+<img src="repo_assets/Software_demo.gif" width="300" height="450" alt="Demo" />
+<p align="center">
+<br />
+<a href="https://drive.google.com/file/d/1QBMq46aj7z1aQ7YXLMyRCDLZ4_NpmKxJ/view">View Full Demo</a>
+</p>
 
 # Architecture and Connections
 <p align="center">
