@@ -104,9 +104,11 @@
 # Architecture
 ### Project Architecture
 <p align="center">
-  <img src="repo_assets/Ess-architecture.jpg" width="600" height = "350" title="Project Architecture">
+  <img src="repo_assets/Ess-architecture.png" width="600" height = "350" title="Project Architecture">
 </p>
+
 ### Connections
+
 <p align="center">
    <img src="repo_assets/dht11connection.png" width="600" height = "350" title="dht11-module with Rpi">
   <img src="repo_assets/mq3.png" width="600" height = "350" alt="hx711 module with Rpi">
