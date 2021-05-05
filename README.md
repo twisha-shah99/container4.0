@@ -3,7 +3,7 @@
 <br />
 <p align="center">
     <img src="repo_assets/logo.PNG" alt="Logo" width="100" height="160">
-    <h3 align="center">FreshFill</h3>
+    <h1 align="center">FreshFill</h1>
    <p align="center"><i>
       "Smartify" your Kitchen!
       </i>
