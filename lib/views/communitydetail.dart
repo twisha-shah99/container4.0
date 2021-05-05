@@ -33,7 +33,7 @@ class _add_postsState extends State<add_posts> {
     return InkWell(
       child:Container(
         height:40,
-        width:103,
+        width:114,
         decoration: BoxDecoration(
           color:_typeSelected==title? Color(0xFFF2C94C): Color(0xFF27AE60),
           borderRadius: BorderRadius.circular(15),
@@ -83,11 +83,11 @@ class _add_postsState extends State<add_posts> {
                 scrollDirection:Axis.horizontal,
                 children:[
                   _buildfoodType('Fruit'),
-                  SizedBox(width:11),
+                  SizedBox(width:20),
                   _buildfoodType('Vegetable'),
-                  SizedBox(width:11),
+                  SizedBox(width:20),
                   _buildfoodType('Cooked Meal'),
-                  SizedBox(width:11),
+                  SizedBox(width:20),
 
 
                 ],

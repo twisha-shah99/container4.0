@@ -37,7 +37,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
 
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 5),
+    Timer(Duration(seconds: 8),
             ()=>Navigator.pushReplacement(context,
             MaterialPageRoute(builder:
                 (context) => MyApp()
@@ -57,11 +57,11 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
 
-              Text("Container 4.0", style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold,fontFamily: "Raleway"),),
+              Text("FreshFill", style: TextStyle(fontSize: 70, fontWeight: FontWeight.bold,fontFamily: "Amatic SC"),),
               Padding(
-                padding:EdgeInsets.only(top:20),
+                padding:EdgeInsets.only(top:5),
                 child:Lottie.network(
-                  'https://assets1.lottiefiles.com/private_files/lf30_P3RxuC.json',
+                  'https://assets3.lottiefiles.com/packages/lf20_i8mIVV.json',
                   height: MediaQuery.of(context).size.height * 0.27,
                   repeat: true,
                   reverse: true,

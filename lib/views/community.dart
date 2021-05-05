@@ -33,9 +33,9 @@ class _postsState extends State<posts> {
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            color: Colors.grey,
-            spreadRadius: 3,
-            blurRadius: 3,
+            color: Colors.green,
+            spreadRadius: 0.1,
+            blurRadius: 7,
             offset: Offset(2,3),
           ), //BoxShadow
           //BoxShadow
@@ -56,11 +56,11 @@ class _postsState extends State<posts> {
                   color: Colors.black,
                   fontFamily: "Raleway",
                   fontWeight: FontWeight.w600),),
-              SizedBox(width: 110,),
+              SizedBox(width: 160,),
               Icon(Icons.phone_iphone,
                 color: Color(0xFFEB5757),
                 size: 20,),
-              SizedBox(width: 6),
+              SizedBox(width:6),
               Text(post['number'], style: TextStyle(fontSize: 15,
                   color: Color(0xFFEB5757),
                   fontFamily: "Raleway",
@@ -161,10 +161,11 @@ class _postsState extends State<posts> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
-        title:Text("Posts",style:TextStyle(
+        title:Text("Food Community Support",style:TextStyle(
           fontFamily: "Raleway",
           color: Colors.black,
           fontWeight: FontWeight.w600,
+          fontSize: 24,
 
         ),),
         backgroundColor: Color(0xFFF2C94C),

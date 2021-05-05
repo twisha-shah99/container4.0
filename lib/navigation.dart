@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import 'package:smart_container/views/community.dart';
-import 'package:smart_container/views/fridgeDetailnew.dart';
+import 'package:smart_container/views/fridgeDetail.dart';
+
 
 import 'package:smart_container/views/kitchen.dart';
 
@@ -22,7 +23,7 @@ class _NavBarState extends State<NavBar> {
   int _selectedIndex = 0; //by default -> Home
   List<Widget>__navBarOptions = <Widget>[
     KitchenInventory(),
-    FridgeInventory(),
+    FridgeInventory(1,2,3,4,5),
     posts(),
     Text("Settings")];
 
@@ -37,7 +38,7 @@ class _NavBarState extends State<NavBar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Container 4.0", style: TextStyle(color: AppColor.PRIMARY_BLACK, fontFamily: "Raleway", fontWeight: FontWeight.bold, fontSize: MediaQuery.of(context).size.width * 0.0697),),
+        title: Text("FreshFill", style: TextStyle(color: AppColor.PRIMARY_BLACK, fontFamily: "Raleway", fontWeight: FontWeight.bold, fontSize: MediaQuery.of(context).size.width * 0.0697),),
         centerTitle: true,
       ),
       body: Center(

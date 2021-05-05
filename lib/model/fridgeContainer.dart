@@ -1,10 +1,9 @@
 
-
 class Fridge {
   String  status;
-  double  humidity, temp;
+  double  temp, humidity;
 
-   //constructor
-  Fridge ( this.humidity, this.temp,
+  //constructor
+  Fridge ( this.temp, this.humidity,
       this.status);
 }

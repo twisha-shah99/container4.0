@@ -144,7 +144,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                     thumbShape: RoundSliderThumbShape(enabledThumbRadius: 14.0),
                                     thumbColor: Colors.greenAccent,
                                     overlayColor: Colors.green.withAlpha(32),
-                                    overlayShape: RoundSliderOverlayShape(overlayRadius: 28.0),
+                                    overlayShape: RoundSliderOverlayShape(overlayRadius: 15.0),
                                     tickMarkShape: RoundSliderTickMarkShape(),
                                     activeTickMarkColor: Colors.green[700],
                                     inactiveTickMarkColor: Colors.green[100],
@@ -179,7 +179,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                           Padding(
                             padding: EdgeInsets.only(top:0, bottom: 0, right:84),
                             child: Text(
-                              _threshold.toStringAsFixed(2) + " cm",
+                              _threshold.toStringAsFixed(2) + " ",
                               style: TextStyle(fontSize: MediaQuery.of(context).size.width * 0.044, fontWeight: FontWeight.w900, fontFamily: 'Raleway',),
                             ),
                           ),
@@ -231,14 +231,15 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                       style: TextStyle(
                                         color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                         fontWeight: FontWeight.bold,
-                                        fontSize: MediaQuery.of(context).size.width * 0.062,
+                                        fontSize: MediaQuery.of(context).size.width * 0.063,
                                       ),),
                                   ),
                                   Padding(
                                     padding: EdgeInsets.only(left:14),
+
                                     child: DropdownButton<String>(
                                         value: _selected_store,
-                                      style: TextStyle(color: Colors.black, fontSize: 26),
+                                      style: TextStyle(color: Colors.black, fontSize: 20),
                                       items: store_list.map<DropdownMenuItem<String>>((String value) {
                                         return DropdownMenuItem<String>(
                                           value: value,
@@ -250,7 +251,7 @@ class _KitchenDetailState extends State<KitchenDetail> {
                                         style: TextStyle(
                                         color: AppColor.PRIMARY_BLACK, fontFamily: 'Raleway',
                                         fontWeight: FontWeight.bold,
-                                        fontSize: MediaQuery.of(context).size.width * 0.062,
+                                        fontSize: MediaQuery.of(context).size.width * 0.053,
                                       ),
                                       ),
 

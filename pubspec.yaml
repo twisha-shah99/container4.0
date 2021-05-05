@@ -63,6 +63,10 @@ flutter:
     - family: Raleway
       fonts:
         - asset: lib/assets/raleway.ttf
+
+    - family: Amatic SC
+      fonts:
+        - asset: lib/assets/AmaticSC-Bold.ttf
       
 
 
