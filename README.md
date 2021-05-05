@@ -145,7 +145,7 @@ Auto-order
 </p>
 &nbsp; &nbsp; 
 <p align="center">
- <img src="repo_assets/foodcommunity_main_new.jfif" width="250" height="500" alt="cropping screen">&nbsp; &nbsp; &nbsp; &nbsp; 
+ <img src="repo_assets/food_cs.png" width="250" height="500" alt="cropping screen">&nbsp; &nbsp; &nbsp; &nbsp; 
   <img src="repo_assets/foodcommunity_addPost_new.jfif" width="250" height="500" alt="output screen">
 </p>
 
