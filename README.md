@@ -44,8 +44,7 @@
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#contributors">Contributors</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
+    </ol>
 </details>
 
 
