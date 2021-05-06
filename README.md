@@ -57,7 +57,7 @@
     If somehow, we can manage out kitchens in such a way to avoid overstock and wastage of food, 
     it many benefit nearly 9 million people, who die out of hunger and hunger-related diseases. 
     </p>
-    <i>Leveraging the power of IoT, AI and computer vision techniques, we propose a simple consumer based application - <b>FreshFill</b></i>
+    <i>Leveraging the power of IoT and data analytics, we propose a simple consumer based application - <b>FreshFill</b></i>
     </br>
     <b>Note: </b> This repository is for the purpose of ESS Project (TY - B.Tech Electronics, VJTI, Mumbai)
     </p>
