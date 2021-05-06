@@ -8,7 +8,7 @@
       "Smartify" your Kitchen!
       </i>
       <p align="center"><i>
-           From from Zero Waste to Zero Hunger!
+            from Zero Waste to Zero Hunger!
             </i>
             <br />
             <br />
