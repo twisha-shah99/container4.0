@@ -109,9 +109,7 @@
 ### Connections
 
 <p align="center">
-   <img src="repo_assets/dht11connection.png" width="600" height = "350" title="dht11-module with Rpi">
-  <img src="repo_assets/mq3.png" width="600" height = "350" alt="hx711 module with Rpi">
-  <img src="repo_assets/hx711.png" width="600" height = "350" alt="hx711 module with Rpi">
+   <img src="repo_assets/hardware_connections.png" width="600" height = "350" title="Hardware Connections">
 </p>
 
 # Key Features
